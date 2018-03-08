@@ -4,5 +4,5 @@ RUN mkdir nodejs_sample_app
 WORKDIR nodejs_sample_app
 COPY app.js .
 COPY package.json .
-COPY node_modules .
+#COPY node_modules .
 CMD node app.js
