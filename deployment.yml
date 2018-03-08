@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: nodejs-sample-app
-        image: registry.gitlab.com/madhavikhatawakar/nodejs-sample-app
+        image: sachinar/nodejs-app:$BUILD_NUMBER
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
